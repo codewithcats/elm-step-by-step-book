@@ -1,0 +1,27 @@
+# Chapter (-1) "Format"
+
+นอกจากส่วนที่เป็น source code แล้ว หลายๆครั้งเราจะต้องรันคำสั่งใน terminal
+ผมจะใส่หัวข้อว่า # Terminal ในบรรทัดแรกเสมอ
+
+**ตัวอย่าง**
+```bash
+# Terminal
+mkdir fishbowl
+```
+ในขณะที่ source code ผมจะใส่ชื่อไฟล์ในบรรทัดแรก
+
+**ตัวอย่าง**
+```elm
+-- src/Main.elm
+type Chapter = Chapter Int String
+```
+หรือ
+```js
+// app.js
+var app = Elm.Main.init({
+    node: document.getElementById("app")
+});
+```
+
+เนื่องจากผมเป็น Linux user ดังนั้นจึงไม่มีอะไรรับประกันว่า คำสั่งตัวอย่างที่ต้องรันบน Terminal นั้นจะทำงานได้ถูกต้องบน Windows นะครับ ต้องขออภัยในความไม่สะดวกไว้ ณ ที่นี้ ในขณะที่สำหรับ macOS นั้นผมเชื่อว่า 99% น่าจะรันได้ถูกต้อง
+
